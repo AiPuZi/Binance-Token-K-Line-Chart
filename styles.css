@@ -1,0 +1,61 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* 文字居中 */
+        }
+        .content {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 8px;
+            font-size: 16px; /* 放大字体 */
+            width: 380px; /* 增加搜索框长度 */
+        }
+        input[type="submit"] {
+            padding: 8px;
+            font-size: 16px;
+            height: 38px; /* 保持搜索按钮和搜索框高度一样 */
+            background-color: #007BFF; /* 保留蓝色 */
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 38px; /* 将 h1 字体大小增加为 28px */
+        }
+        h2 {
+            font-size: 24px; /* 设置 h2 字体大小为 24px */
+        }
+        .chart-container {
+            margin-top: 20px;
+        }
+        a {
+            color: black; /* 链接文字颜色为黑色 */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-family: '微软雅黑', sans-serif; /* 使用微软雅黑字体 */
+            font-size: 13px; /* 减小页脚字体大小 */
+            font-weight: bold; /* 设置页脚字体为粗体 */
+        }
+        .icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url('logo.png') center no-repeat;
+            background-size: contain;
+            text-indent: -9999px;
+        }
